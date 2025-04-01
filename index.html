@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="battle-container">
+        <div class="player">
+            <div class="pokemon">
+                <img src="" alt="" id="player-pokemon">
+                <div class="stats-container">
+                    <div class="hp-bar" style="--hp-percentage: 50%;"></div>
+                    <p>HP: <span id="player-hp"></span></p>
+                    <p>ATK: <span id="player-atk"></span></p>
+                    <p>DEF: <span id="player-def"></span></p>
+                </div>
+                <div class="atk-container">
+                    <button data-move="" id="player-move1"></button>
+                    <button data-move="" id="player-move2"></button>
+                    <button data-move="" id="player-move3"></button>
+                    <button data-move="" id="player-move4"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="battle-log">
+            <div class="log-container">
+                <h3>BATTLE LOG</h3>
+                <div class="log-messages">
+                    <!-- Messages will appear here via JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="computer">
+            <div class="pokemon">
+                <img src="" alt="" id="computer-pokemon">
+                <div class="stats-container">
+                    <div class="hp-bar" style="--hp-percentage: 50%;"></div>
+                    <p>HP: <span id="computer-hp"></span></p>
+                    <p>ATK: <span id="computer-atk"></span></p>
+                    <p>DEF: <span id="computer-def"></span></p>
+                </div>
+                <div class="atk-container">
+                    <button data-move="" id="computer-move1"></button>
+                    <button data-move="" id="computer-move2"></button>
+                    <button data-move="" id="computer-move3"></button>
+                    <button data-move="" id="computer-move4"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
