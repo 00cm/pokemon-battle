@@ -106,20 +106,6 @@
   .computer .atk-container {
     display: none;
   }
-  
-  /* HP Bar Animation (Bonus) */
-  @keyframes hp-drain {
-    from { width: 100%; }
-    to { width: var(--hp-percentage); }
-  }
-  
-  /* Add this via JavaScript later: */
-  .hp-bar {
-    height: 5px;
-    background-color: #2ecc71;
-    margin-top: 5px;
-    animation: hp-drain 0.5s ease-out;
-  }
 
   .battle-log {
     position: absolute;
